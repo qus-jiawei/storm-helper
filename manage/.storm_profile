@@ -1,0 +1,4 @@
+#!/bin/bash
+export STORM_BIN="$HOME/storm/bin"
+export STORM_CONF="$HOME/storm/conf"
+PATH=$PATH:~/storm/bin
