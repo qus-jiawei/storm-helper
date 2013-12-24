@@ -1,0 +1,34 @@
+########### These MUST be filled in for a storm configuration
+ storm.zookeeper.servers:
+     - "hadoop3"
+     - "hadoop4"
+     - "hadoop5"
+ storm.zookeeper.port: 59181
+ nimbus.host: "hadoop2"
+ nimbus.thrift.port: 59677
+ storm.local.dir: "/home/qiujw/storm_data" 
+ supervisor.slots.ports:
+     - 59670
+ #    - 59671
+ #    - 59672
+ #    - 59673
+ drpc.servers:
+     - hadoop2
+     - hadoop3
+ drpc.port: 59372
+ drpc.invocations.port: 59373
+
+ ui.port: 59888
+
+# 
+# ##### These may optionally be filled in:
+#    
+## List of custom serializations
+ topology.kryo.register:
+     - cn.uc.storm.test.utils.PassData
+#
+## List of custom kryo decorators
+# topology.kryo.decorators:
+#     - org.mycompany.MyDecorator
+#
+## Locations of the drpc servers
