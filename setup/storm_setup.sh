@@ -12,7 +12,7 @@ if [ ! -d "$HOME/storm" ]
 then
     echo "storm 不存在 部署storm"
     #wget https://github.com/downloads/nathanmarz/storm/storm-0.8.1.zip
-    #wget https://dl.dropboxusercontent.com/s/dj86w8ojecgsam7/storm-0.9.0.1.zip
+    wget https://dl.dropboxusercontent.com/s/dj86w8ojecgsam7/storm-0.9.0.1.zip
     NAME=storm-0.9.0.1
     unzip ${NAME}.zip
     ln -s ${NAME} storm
