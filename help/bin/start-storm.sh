@@ -1,7 +1,7 @@
 #!/bin/bash
 
-${STORM_BIN}/start-nimbus.sh
-${STORM_BIN}/start-supervisor.sh
-${STORM_BIN}/start-drpc.sh
-${STORM_BIN}/start-ui.sh
+sh ${STORM_BIN}/start-nimbus.sh
+sh ${STORM_BIN}/start-supervisor.sh
+sh ${STORM_BIN}/start-drpc.sh
+sh ${STORM_BIN}/start-ui.sh
 

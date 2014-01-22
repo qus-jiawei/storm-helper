@@ -1,8 +1,8 @@
 #!/bin/bash
 
-${STORM_BIN}/stop-nimbus.sh
-${STORM_BIN}/stop-supervisor.sh
-${STORM_BIN}/stop-worker.sh
-${STORM_BIN}/stop-drpc.sh
-${STORM_BIN}/stop-ui.sh
+sh ${STORM_BIN}/stop-nimbus.sh
+sh ${STORM_BIN}/stop-supervisor.sh
+sh ${STORM_BIN}/stop-worker.sh
+sh ${STORM_BIN}/stop-drpc.sh
+sh ${STORM_BIN}/stop-ui.sh
 
